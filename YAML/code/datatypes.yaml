@@ -1,0 +1,55 @@
+# string variable
+
+myself: vaishali chavan
+fruit: "apple"
+job: 'swe'
+
+bio: |
+hey my name is vaishali chavan.
+i am a very nice dude.  # remove all whitespace and indentation
+
+# write a single line in multiple lines
+
+message : >
+this will
+all be
+in one single line
+
+# same as
+message: !!str this will all be in one single line
+
+number: 33223
+marks: 90.89
+booleanValue: No
+booleanValue: !!bool No # n, N, false, False, FALSE
+# same for true -> yes, y, Y
+
+
+# specify the type
+zero: !!int 0
+positveNum: !!int 45
+negativeNum: !!int -45
+binaryNum: !!int 0b11001
+octalNum: !!int 06574
+hexa: !!int 0x45
+commaValue: !!int +540_000 # 540,000
+expoential numbers: 6.023E56
+
+#floating point 
+marks: !!float 4.32
+infinite: !!float .inf
+not a num: .nan
+
+# null
+
+surname: !!null Null # or null NULL ~
+
+~: this is null key
+
+
+# date and time
+date: !!timestamp 2002-12-14
+india time: 2001-12-15T02:59:43.10 +5:30
+no time zone: 2001-12-15T02:59:43.10
+
+

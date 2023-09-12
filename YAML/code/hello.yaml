@@ -1,0 +1,29 @@
+"apple" : "I am a red fruit"
+1 : "this is a vaishali's roll.no"
+---     # this is used for diffrent block of document
+
+# list
+
+- apple
+- mango
+- banana
+- APPLE
+---
+
+
+# yaml is case sensitive
+
+cities :
+ - new delhi
+ - mumbai
+ - pune
+
+---
+
+cities : [new delhi, mumbai]
+
+---
+
+{mango : "yellow fruit", age : 56}
+
+... #document finish here

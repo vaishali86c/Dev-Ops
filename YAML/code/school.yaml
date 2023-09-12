@@ -1,0 +1,8 @@
+---
+School:
+- name: DPS
+  principal: Someone
+  Student:
+  - rno: 12
+    name: vaishali chavan
+    marks: 67
